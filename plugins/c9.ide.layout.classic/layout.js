@@ -327,6 +327,7 @@ define(function(require, exports, module) {
             // run plugin adds: menus.setRootMenu("Run", 600, plugin);
             menus.setRootMenu("Tools", 700, plugin);
             menus.setRootMenu("Window", 800, plugin);
+            menus.setRootMenu("SPARKBOX-2.0", 900, plugin);
             
             var amlNode = menus.get("Cloud9").item;
             if (amlNode && amlNode.$ext)
